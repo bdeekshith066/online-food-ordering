@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Grab n go</title>
 </head>
 <body>
     <section class="menu">
         <div class="nav">
             <div class="logo"><h1>Grab <b>n go</b></h1></div>
+            
+                <!-- markup of search bar  -->
+                <input type="text" class="searchfield" />
+                <div class="search"></div>
+        
             <ul>
                 <li><a class="active" href="#">Home</a></li>
                 <li><a href="#">Menu</a></li>
-                <li><a href="#">About US</a></li>
+                <li><a href="#">Your Order</a></li>
+                <li><a href="#">Que Info</a></li>
             </ul>
             <div>
                 <input class="signin" type="submit" value="Sign IN" name="signin">
@@ -25,29 +32,46 @@
         <div class="content">
             <div class="content-left">
                 <div class="info">
-                    <h2>Not enough time for a meal?<br> Grab n-go is the deal</h2>
-                    <p>Dont wanna wait for long in front of canteen and waste your time...we have got it covered</p>
+                    <h2>Not enough time for a meal?<br><span>Grab n-go</span> is the deal </h2>
+                    <p>Dont wanna wait for long in front of canteen and waste your time..<span>.we have got it covered</span></p>
                 </div>
-                <button>Explore Food</button>
+                <button class="ripple">
+                    <i class="fa fa play">Order Now</i></button>   
             </div>
             <div class="content-right">
-                <img src="images/images.jpg" alt="">
+                <img src="images/pic4.jpg" alt="">
             </div>
         </div>
     </section>
-    <section class="category">
-        <div class="list-items">
-            <h3>Hang out at your favourite spot</h3>
-            <div class="card">
-                <img src="path/to/your/image.jpg" alt="Image Description">
-                <div class="vidyarti-engg">
-                    <h1>Vidyarti khana</h1>
-                </div>
-                <div class="lib canteen">
-                    <p>blah vlah</p>
-                </div>
-            </div>
-        </div>
-    </section>
+   
+     
+    <section class="services" id="services">
+            <div class="services" id="services">
+           <div class="container">
+            <h1 class="subtitle">College<span>Canteen</span></h1>
+            <div class="services-list">
+                <div>
+                <i class=""></i>
+                <h2>Vidyarthi Kahana</h2>
+                <p></p>
+                <a href="" class="read"></a>
+            </div>
+            <div>
+                <i class=""></i>
+                <h2>Law Canteen</h2>
+                <p></p>
+                <a href="" class="read"></a>
+            </div>
+            <div>
+                <i class=""></i>
+                <h2>Sip n Snack</h2>
+                <p></p>
+                <a href="" class="read"></a>
+            </div>
+           
+            </div>
+        </section>
+    
+    
 </body>
 </html>
